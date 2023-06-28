@@ -1,0 +1,129 @@
+/* ---- Header ---- */
+.nav-bar__list {
+    font-size: 1.3125rem;
+    font-weight: 400;
+}
+
+.banner {
+    background-color: #FFF0ED;
+    padding-bottom: 2.5rem;
+}
+
+.banner-card {
+    width: 55%;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 8%;
+}
+
+.banner__img {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.banner-card__description {
+    width: 380px;
+    margin: 1.25rem 0;
+}
+
+/* ---- Main ---- */
+.product-cards {
+    background-color: #F7F7F7;
+    padding: 1.25rem 0;
+    text-align: center;
+}
+
+.product-cards__title {
+    text-align: center;
+
+}
+
+.product-card {
+    display: inline-block;
+    width: 330px;
+    height: 440px;
+    padding: 1.25rem;
+    margin: 1.25rem 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 9px -1px rgba(0, 0, 0, 0.25);
+}
+
+.product-card__img {
+    display: block;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.product-card__title {
+    text-align: center;
+    margin: 1.25rem 0;
+}
+
+.product-card__price {
+    color: #5BACC3;
+    font-size: 2.0625rem;
+    text-align: center;
+}
+
+.discount{ 
+    background-color: #393939;
+    width: 90%;
+    color: #fff;
+    margin: 10% auto;
+}
+
+.discount__message {
+    text-align: center;
+    font-size: 2.0625rem;
+    padding: 1.25rem;
+    margin-top: 0;
+}
+
+.discount__message--caps {
+    text-transform: uppercase;
+}
+
+/* ---- Footer ---- */
+.footer-container {
+    background-color: #FFF0ED;
+    text-align: center;
+}
+
+.footer-card {
+    display: inline-block;
+    padding: 2.5rem;
+    margin: 1.25rem 2.5rem;
+    text-align: left;
+    vertical-align: top;
+}
+
+.footer-card__title {
+    margin: 1.25rem 0;
+}
+
+.footer-card__description--bold {
+    font-weight: bold;
+}
+
+.footer-card__img {
+    width: 50px;
+}
+
+/* ---- Shared ---- */
+.btn {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    display: block;
+    width: 180px;
+    padding: 1.25rem;
+    margin: 1.25rem auto;
+    border-style: none;
+    background-color: #5BACC3;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn--tight {
+    display: inline-block;
+}

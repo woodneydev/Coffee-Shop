@@ -1,0 +1,76 @@
+/* ---- Default Styling ---- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-weight: 400;
+}
+
+h1, h2 {
+    font-size: 3.75rem;
+    font-weight: 300;
+}
+
+h3 {
+    font-size: 2.0625rem;
+    font-weight: 300;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+/* ---- Header ---- */
+.nav-bar {
+    background-color: #FFF0ED;
+}
+
+.nav-bar__img {
+    width: 50px;
+}
+
+.nav-bar__title {
+    width: 160px;
+}
+
+.nav-bar__title-link, .nav-bar__title-link:visited {
+    color: #393939;
+}
+
+.nav-bar__title, .nav-bar__list, .nav-bar__list__item {
+    display: inline-block;
+}
+
+.nav-bar__list {
+    width: 400px;
+    margin-bottom: 1.25rem;
+}
+
+.nav-bar__list__item {
+    width: 115px;
+}
+
+.nav-bar__nav-link, .nav-bar__nav-link:visited  {
+    text-decoration: none;
+    font-size: 1.3125rem;
+    font-weight: 400px;
+    color:#393939;
+    text-transform: uppercase;
+}
+
+.nav-bar__nav-link--highlighted, .nav-bar__nav-link--highlighted:visited {
+    color: #5BACC3;
+}

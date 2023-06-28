@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <meta name="description" content="Landing page for Nitro coffee. An overview of products can be seen." >
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap"
+    rel="stylesheet" >
+  <title>Coffee Shop - Home</title>
+  <link href="./css/global.css" rel="stylesheet" >
+  <link href="./css/landing.css" rel="stylesheet" >
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <a href="./index.html"><img class="nav-bar__img" src="./assets/coffee-beans-logo-and-footer.svg"
+          alt="coffee bean logo" ></a>
+      <h2 class="nav-bar__title">
+        <a class="nav-bar__title-link" href="">nitro</a>
+      </h2>
+      <ul class="nav-bar__list">
+        <li class="nav-bar__list__item">
+          <a class="nav-bar__nav-link" href="./index.html">About</a>
+        </li>
+        <li class="nav-bar__list__item">
+          <a class="nav-bar__nav-link" href="./pages/menu.html">Menu</a>
+        </li>
+        <li class="nav-bar__list__item">
+          <a class="nav-bar__nav-link nav-bar__nav-link--highlighted" href="./pages/menu.html">Shop Now</a>
+        </li>
+      </ul>
+    </nav>
+    <section class="banner">
+      <div class="banner-card">
+        <h1 class="banner-card__title">Nitro Coffee</h1>
+        <p class="banner-card__description">
+          Coffee is a brewed drink prepared from roasted coffee beans, the
+          seeds of berries from certain Coffea species.
+        </p>
+        <a class="btn btn--tight" href="./pages/menu.html">Shop Now</a>
+      </div>
+      <img class="banner__img" src="./assets/coffeebeans-hero.png" alt="coffee bag" >
+    </section>
+  </header>
+
+  <main>
+    <section class="product-cards">
+      <h2 class="product-cards__title">Our Products</h2>
+      <div class="product-card">
+        <img class="product-card__img" src="./assets/coffeebeans.png" alt="coffee beans" >
+        <h3 class="product-card__title">Coffee Beans</h3>
+        <p class="product-card__price">$18.99</p>
+      </div>
+      <div class="product-card">
+        <img class="product-card__img" src="./assets/coldbrew.png" alt="cold brew" >
+        <h3 class="product-card__title">Cold Brew</h3>
+        <p class="product-card__price">$4.99</p>
+      </div>
+      <div class="product-card">
+        <img class="product-card__img" src="./assets/inhousebrew.png" alt="in-house brew" >
+        <h3 class="product-card__title">In-house Brew</h3>
+        <p class="product-card__price">$2.00</p>
+      </div>
+      <a class="btn" href="./pages/menu.html#menu">VIEW ALL</a>
+    </section>
+
+    <aside class="discount">
+      <p class="discount__message">Get 20% off your first order with code: <span class="discount__message--caps">FirstNitro</span></p>
+    </aside>
+  </main>
+
+  <footer class="footer-container">
+    <section class="footer-card">
+      <h3 class="footer-card__title">Address</h3>
+      <p class="footer-card__description">503 Broadway Penthouse</p>
+      <p class="footer-card__description">New York</p>
+    </section>
+    <section class="footer-card">
+      <h3 class="footer-card__title">Hours</h3>
+      <p class="footer-card__description"><span class="footer-card__description--bold">Monday - Friday:</span> 9am - 7pm
+      </p>
+      <p class="footer-card__description"><span class="footer-card__description--bold">Saturday - Sunday:</span> 10am -
+        5pm</p>
+    </section>
+    <section class="footer-card">
+      <h3 class="footer-card__title">Social</h3>
+      <a href="https://www.facebook.com"><img class="footer-card__img" src="./assets/Facebook-Icon.svg" alt="facebook" ></a>
+      <a href="https://www.yelp.com"><img class="footer-card__img" src="./assets/Yelp-Icon.svg" alt="yelp" ></a>
+      <a href="https://www.instagram.com"><img class="footer-card__img" src="./assets/Instagram-Icon.svg" alt="instagram" ></a>
+    </section>
+  </footer>
+</body>
+
+</html>
